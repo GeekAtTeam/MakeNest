@@ -297,9 +297,10 @@ document.addEventListener('DOMContentLoaded', function() {
             top: 100%;
             left: 0;
             right: 0;
-            background: white;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            background: var(--bg-card);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
             padding: 20px;
+            border: 1px solid rgba(212, 165, 116, 0.2);
         }
         
         .hamburger.active span:nth-child(1) {
